@@ -7,8 +7,7 @@ on:
 
 jobs:
   unassign-inactive:
-    runs-on: ubuntu-latest
     uses: SukhvirKooner/.github/.github/workflows/main.yaml@main
     with:
       githubtoken: ${{ secrets.WEB_TOKEN }}
-      inactivityPeriodInMinutes: 10
+      inactivityPeriodInMinutes: ${{ inputs.inactivityPeriodInMinutes }}
