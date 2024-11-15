@@ -10,4 +10,4 @@ jobs:
     uses: SukhvirKooner/.github/.github/workflows/main.yaml@main
     with:
       githubtoken: ${{ secrets.WEB_TOKEN }}
-      inactivityPeriodInMinutes: ${{ inputs.inactivityPeriodInMinutes }}
+      inactivityPeriodInMinutes: 10
