@@ -3,7 +3,7 @@ name: "Unassign Inactive Contributors"
 on:
   schedule:
     - cron: "*/1 * * * *" # Every minute
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   unassign-inactive:
