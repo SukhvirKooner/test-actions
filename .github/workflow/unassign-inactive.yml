@@ -1,0 +1,13 @@
+name: "Unassign Inactive Contributors"
+
+on:
+  schedule:
+    - cron: "*/1 * * * *" # Every minute
+  workflow_dispatch:
+
+jobs:
+  unassign-inactive:
+    uses: SukhvirKooner/.github/.github/workflows/main.yml@main
+    with:
+      githubtoken: ${{ secrets.WEB_TOKEN }}
+      inactivityPeriodInMinutes: 10
