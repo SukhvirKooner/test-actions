@@ -7,7 +7,7 @@ on:
 
 jobs:
   unassign-inactive:
-    uses: SukhvirKooner/.github/.github/workflows/main.yml@main
+    uses: SukhvirKooner/.github/.github/workflows/main.yaml@main
     with:
       githubtoken: ${{ secrets.WEB_TOKEN }}
       inactivityPeriodInMinutes: 10
