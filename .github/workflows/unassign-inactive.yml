@@ -7,7 +7,7 @@ on:
 
 jobs:
   unassign-inactive:
-    uses: SukhvirKooner/.github/.github/workflows/main.yaml
+    uses: SukhvirKooner/.github/.github/workflows/main.yaml@main
     with:
       inactivityPeriodInMinutes: 10
     secrets:
