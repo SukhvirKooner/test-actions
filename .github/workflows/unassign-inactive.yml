@@ -11,4 +11,4 @@ jobs:
     with:
       inactivityPeriodInMinutes: 10
     secrets:
-       github_Token: ${{ secrets.NEW_TOKEN }}
+       WEB_Token: ${{ secrets.NEW_TOKEN }}
