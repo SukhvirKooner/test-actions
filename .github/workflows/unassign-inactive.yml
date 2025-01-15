@@ -10,7 +10,8 @@ jobs:
   unassign-inactive:
     uses: SukhvirKooner/.github/.github/workflows/main.yaml@main
     secrets:
-       WEB_Token: ${{ secrets.NEW_TOKEN }}
-       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      LE_BOT_APP_ID: ${{ secrets.LE_BOT_APP_ID }}
+      LE_BOT_PRIVATE_KEY: ${{ secrets.LE_BOT_PRIVATE_KEY }}
+      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
        
