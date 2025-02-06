@@ -8,7 +8,7 @@ on:
 
 jobs:
   unassign-inactive:
-    uses: Testing0179/.github/.github/workflows/main.yaml@main
+    uses: Testing0179/.github/.github/workflows/unassign-inactive.yaml@main
     secrets:
       LE_BOT_APP_ID: ${{ secrets.LE_BOT_APP_ID }}
       LE_BOT_PRIVATE_KEY: ${{ secrets.LE_BOT_PRIVATE_KEY }}
